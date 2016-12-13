@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "sources": [
+      "../common/models",
+      "./models"
+    ]
+  },
+  "AccessToken": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "ACL": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "container": {
+    "dataSource": "storage",
+    "public": true
+  },
+  "message": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "customer": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "vote": {
+    "dataSource": "mongo",
+    "public": true
+  }
+}

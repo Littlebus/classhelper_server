@@ -1,0 +1,185 @@
+Web server listening at: http://localhost:3000
+Browse your REST API at http://localhost:3000/explorer
+(node:9142) DeprecationWarning: os.tmpDir() is deprecated. Use os.tmpdir() instead.
+{ Error: ENOENT: no such file or directory, open 'server/storage/container1/content'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'server/storage/container1/content' }
+Unhandled error for request POST /containers/container1/upload: Error: ENOENT: no such file or directory, open 'server/storage/container1/content'
+{ Error: ENOENT: no such file or directory, open 'server/storage/container1/httpd.conf'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'server/storage/container1/httpd.conf' }
+Unhandled error for request POST /containers/container1/upload: Error: ENOENT: no such file or directory, open 'server/storage/container1/httpd.conf'
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+Unhandled error for request GET /votes?filter[order]=date%20DESC&filter[limit]=10: Error: There is no method to handle GET /votes?filter[order]=date%20DESC&filter[limit]=10
+    at restUrlNotFound (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.3.1.0@strong-remoting/lib/rest-adapter.js:338:17)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at jsonParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/json.js:103:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
+    at Function.process_params (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:330:12)
+    at next (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:271:10)
+    at urlencodedParser (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.1.15.2@body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:312:13)
+    at /home/group3/filehelper/loopback-example-storage/example-3.0/node_modules/.4.14.0@express/lib/router/index.js:280:7
